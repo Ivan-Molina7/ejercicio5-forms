@@ -19,6 +19,7 @@
                 <img src="assets/img/logo.png" alt="" class="header__logo-image">
             </a>
         </figure>
+        <div class="hamburger"><i class="hamburger fa-solid fa-bars"></i></div>
         <nav class="header__nav">
             <ul class="header__nav-list">
                 <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
@@ -33,9 +34,9 @@
         <div class="hero__container container">
             <div class="hero__content">
                 <h1 class="text-xxl">
-                    Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti fugit aliquid.
                 </h1>
-                <a href="" class="hero__button button">Contáctenos</a>
+                <a href="" class="hero__button button">Contact us</a>
             </div>
             <div class="hero__thumbnail">
                 <img src="assets/img/hero.png" alt="" class="hero__image">
@@ -80,42 +81,43 @@
             <p class="about__subtitle text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
                 aperiam.</p>
             <p class="about__text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit."></p>
-            <a href="" class="about__button button">Leer mas</a>
+            <a href="" class="about__button button">Learn more</a>
         </div>
     </section>
 
-    <section class="why">
+    <section class="why container">
         <div class="why__thumbnail">
-            <img src="" alt="" class="why__image">
+            <img src="assets/img/section 2.png" alt="" class="why__image">
         </div>
         <div class="why__content">
             <h2 class="why__title text-xl">Lorem, ipsum dolor.</h2>
             <p class="why__subtitle text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
                 aperiam.</p>
-            <a href="" class="why__button button">Leer mas</a>
+            <a href="" class="why__button button">Learn more</a>
 
         </div>
     </section>
 
-    <div class="options">
-        <div class="options__container container">
-            <div class="options__content">
-                <h2 class="options__title text-xl">Lorem, ipsum dolor.</h2>
-                <p class="options__subtitle text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Doloremque, aperiam.</p>
-                <a href="" class="options__button button">Leer mas</a>
+    <section class="options container">
 
-            </div>
-            <div class="options__thumbnail">
-                <img src="" alt="" class="options__image">
-            </div>
+        <div class="options__thumbnail">
+            <img src="assets/img/section3.png" alt="" class="options__image">
         </div>
-    </div>
+        <div class="options__content">
+            <h2 class="options__title text-xl">Lorem, ipsum dolor.</h2>
+            <p class="options__subtitle text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque, aperiam.</p>
+            <a href="" class="options__button button">Learn more</a>
+
+        </div>
+
+
+    </section>
 
     <section class="contact container">
         <div class="contact__titles">
             <h2 class="contact__title text-xl">Lorem, ipsum dolor.</h2>
-            <p class="contact__subtitle text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+            <p class="contact__subtitle text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
                 aperiam.</p>
         </div>
         <form action="">
@@ -125,18 +127,18 @@
             </div>
             <div class="form__row">
                 <label for="email">Email</label>
-                <input type="text" class="input" id="email">
+                <input type="email" class="input" id="email">
             </div>
             <div class="form__row form__row-radios">
                 <label>Type of email</label>
 
                 <div class="form__row-radio">
-                    <input type="radio" id="question">
+                    <input type="radio" id="question" name="type">
                     <label for="question">Question</label>
                 </div>
 
                 <div class="form__row-radio">
-                    <input type="radio" id="hiring">
+                    <input type="radio" id="hiring" name="type">
                     <label for="hiring">Hiring</label>
                 </div>
             </div>
@@ -149,16 +151,16 @@
                 </select>
             </div>
 
-            <div class="form__row">
+            <div class="form__row textarea-container">
                 <label for="message">Message</label>
                 <div class="form__row-textarea">
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10" maxlength="500"></textarea>
                     <p class="form__row-text text-sm">Describe your talk in 500 words or less</p>
                     <div class="form__row-checkbox">
                         <input type="checkbox" name="conditions" id="conditions">
                         <label for="conditions">I'm actually available the date of the talk</label>
                     </div>
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" class="button">
                 </div>
             </div>
 
@@ -166,6 +168,12 @@
 
     </section>
     </div>
+
+    <footer class="footer">
+        <p>Lorem, ipsum dolor.</p>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
