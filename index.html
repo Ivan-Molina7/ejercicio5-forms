@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="header container">
+        <figure class="header__logo">
+            <a href="/" class="header__logo-link">
+                <img src="assets/img/logo.png" alt="" class="header__logo-image">
+            </a>
+        </figure>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">About</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link">Advantage</a></li>
+                <li class="header__nav-item"><a href="#" class="header__nav-link header__nav-link--border">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="text-xxl">
+                    Lorem ipsum dolor sit amet.
+                </h1>
+                <a href="" class="hero__button button">Contáctenos</a>
+            </div>
+            <div class="hero__thumbnail">
+                <img src="assets/img/hero.png" alt="" class="hero__image">
+            </div>
+        </div>
+    </section>
+    <section class="about container">
+
+        <div class="about__cards">
+            <div class="about__cards-left">
+                <div class="about__card">
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h3 class="card__title text-lg">Lorem, ipsum.</h3>
+                    <p class="card__text text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, in.</p>
+                </div>
+
+                <div class="about__card">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <h3 class="card__title text-lg">Lorem, ipsum.</h3>
+                    <p class="card__text text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, in.</p>
+                </div>
+            </div>
+
+            <div class="about__cards-right">
+                <div class="about__card">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <h3 class="card__title text-lg">Lorem, ipsum.</h3>
+                    <p class="card__text text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, in.</p>
+                </div>
+
+                <div class="about__card">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <h3 class="card__title text-lg">Lorem, ipsum.</h3>
+                    <p class="card__text text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, in.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="about__information">
+            <h2 class="about__title text-xl">Lorem, ipsum dolor.</h2>
+            <p class="about__subtitle text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+                aperiam.</p>
+            <p class="about__text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit."></p>
+            <a href="" class="about__button button">Leer mas</a>
+        </div>
+    </section>
+
+    <section class="why">
+        <div class="why__thumbnail">
+            <img src="" alt="" class="why__image">
+        </div>
+        <div class="why__content">
+            <h2 class="why__title text-xl">Lorem, ipsum dolor.</h2>
+            <p class="why__subtitle text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+                aperiam.</p>
+            <a href="" class="why__button button">Leer mas</a>
+
+        </div>
+    </section>
+
+    <div class="options">
+        <div class="options__container container">
+            <div class="options__content">
+                <h2 class="options__title text-xl">Lorem, ipsum dolor.</h2>
+                <p class="options__subtitle text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque, aperiam.</p>
+                <a href="" class="options__button button">Leer mas</a>
+
+            </div>
+            <div class="options__thumbnail">
+                <img src="" alt="" class="options__image">
+            </div>
+        </div>
+    </div>
+
+    <section class="contact container">
+        <div class="contact__titles">
+            <h2 class="contact__title text-xl">Lorem, ipsum dolor.</h2>
+            <p class="contact__subtitle text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+                aperiam.</p>
+        </div>
+        <form action="">
+            <div class="form__row">
+                <label for="name">Name</label>
+                <input type="text" class="input" id="name">
+            </div>
+            <div class="form__row">
+                <label for="email">Email</label>
+                <input type="text" class="input" id="email">
+            </div>
+            <div class="form__row form__row-radios">
+                <label>Type of email</label>
+
+                <div class="form__row-radio">
+                    <input type="radio" id="question">
+                    <label for="question">Question</label>
+                </div>
+
+                <div class="form__row-radio">
+                    <input type="radio" id="hiring">
+                    <label for="hiring">Hiring</label>
+                </div>
+            </div>
+
+            <div class="form__row">
+                <label for="ubication">Location</label>
+                <select name="ubication" id="ubication">
+                    <option value="uruguay">Uruguay</option>
+                    <option value="usa">United States</option>
+                </select>
+            </div>
+
+            <div class="form__row">
+                <label for="message">Message</label>
+                <div class="form__row-textarea">
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <p class="form__row-text text-sm">Describe your talk in 500 words or less</p>
+                    <div class="form__row-checkbox">
+                        <input type="checkbox" name="conditions" id="conditions">
+                        <label for="conditions">I'm actually available the date of the talk</label>
+                    </div>
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+
+        </form>
+
+    </section>
+    </div>
+</body>
+
+</html>
