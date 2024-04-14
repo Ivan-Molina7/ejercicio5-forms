@@ -455,6 +455,19 @@ form {
   .contact{
     max-width: 800px;
   }
+
+  .form__row{
+    flex-direction: row;
+    gap: 1em;
+  }
+
+
+
+  .form__row-radios label {
+    width: auto;
+  }
+  
+
 }
 
 
